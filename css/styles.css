@@ -23,7 +23,7 @@
 .header {
     grid-area: header;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }   
 
 .content {
@@ -63,11 +63,19 @@ img {
     padding-bottom: 20px;
 }
 
+.ik {
+    max-width: 10%;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    left: 35%;
+}
+
 button{
     padding: 20px;
     border: none;
     border-radius: 20px;
-    background-color: blue;
+    background-color: grey;
     color: white;
     font-weight: bold;
 }
