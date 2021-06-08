@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 5%;
+    grid-template-rows:  1fr 1fr ;
+    grid-template-areas: 
+    ". title title ."
+    ". header header ."
+    ". content content1 ."
+    ". content2 content2 ." 
+    ". footer footer .";   
+}
+
+.title {
+    grid-area: title;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    padding-top: 50px;
+}   
+
+.content {
+    grid-area: content;
+    text-align: center;
+}
+
+.content1 {
+    grid-area: content1;
+    text-align: center;
+}
+
+.content2 {
+    grid-area: content2;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* guidelines */
+/* .grid div:nth-child(even){
+    background-color: red;
+} */
+
+/* .grid div:nth-child(odd){
+    background-color: green ;
+} */
+
+img {
+    max-width: 70%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
