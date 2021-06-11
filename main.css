@@ -50,13 +50,26 @@
     /* margin-bottom: 50px; */ 
 }
 
+
+.img-group {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 40px;
+    /* margin-bottom: 50px; */ 
+}
+
 .btn-start-index {
     margin-bottom: 50px;
 }
 
 .p-title-menu {
-    margin-top: 100px;
     padding: 20px 50px 0;
+}
+
+.p-title-group-menu {
+    margin-top: 30px;
+    /* padding: 20px 50px 0; */
 }
 
 .p-loading-menu {
