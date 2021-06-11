@@ -26,6 +26,40 @@
     margin-bottom: 50px;
 }
 
+.img-ernest {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */ 
+}
+
+.img-gerrit {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+}
+
+.img-greet {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */ 
+}
+
 .btn-start-index {
     margin-bottom: 50px;
+}
+
+.p-title-menu {
+    margin-top: 100px;
+    padding: 20px 50px 0;
+}
+
+.p-loading-menu {
+    margin-top: 60px;
+    padding: 20px 50px 0;
 }
