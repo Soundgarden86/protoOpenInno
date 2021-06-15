@@ -23,6 +23,13 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+
+                    <div class="col-2"></div>
+                </div>
+
             <!-- IMG -->
                 <div class="row">
                     <div class="col"></div>
@@ -30,6 +37,10 @@
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-8">
+                       <div class="loader">
+                        <p class="display-6 text-center text-white p-loading-menu">Bezig met bellen van <strong>Ernest</strong>.</p>
+                        <img class="rounded mx-auto d-block img-ernest1" src="../img/ernest.jpg" alt="ernest">
+                       </div>
                     </div>
                     <div class="col-2"></div>
                 </div>
@@ -38,7 +49,7 @@
                 <div class="row">
                     <div class="col"></div>
                     <div class="col">
-                        <button type="button" class="btn btn-light btn-lg d-grid gap-2 col-3 mx-auto btn-start-index" onclick="window.location.href='../pages/menu.html';">Hier komt de Jitsi-pagina</button>
+                        <!-- <button type="button" class="btn btn-light btn-lg d-grid gap-2 col-3 mx-auto btn-start-index" onclick="window.location.href='../pages/menu.html';">Annuleren</button> -->
                     </div>
                     <div class="col"></div>
                 </div>
@@ -47,5 +58,15 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+    });
+
+    </script>
+    
 </body>
 </html>

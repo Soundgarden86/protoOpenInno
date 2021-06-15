@@ -128,3 +128,22 @@
   -webkit-animation-duration: .35s;
   animation-duration: .35s
 }
+
+
+/* ------------ Loading... ---------- */
+
+.loader > img {
+    width: 100%;
+}
+
+.loader.hidden {
+    animation: fadeOut 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
